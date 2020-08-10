@@ -4,25 +4,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>sample</title>
 </head>
 <body>
 	<h1>Begin Project!</h1>
 	<P>"처음 만든 버튼"을 누르셨습니다!</P>
-
-	<c:forEach var="item" items="${resultList}">
-		<ul>
-			<li>${item.name}
-				<ul>
-					<li>${item.dirCnt}
-						<ul>
-							<li>${item.depth}</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-		</ul>
-
-	</c:forEach>
 </body>
 </html>

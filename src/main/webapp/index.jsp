@@ -9,7 +9,7 @@
 <body>
     <strong>처음 시작하는 index.jsp</strong><br/>
     <div>
-        <form action="/sample.jsp" method="post">
+        <form action="/sample" method="post">
             <button onclick="submit">처음 만든 버튼</button>
         </form>
     </div>
