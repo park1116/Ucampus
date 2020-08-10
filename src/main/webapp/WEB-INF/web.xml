@@ -33,7 +33,7 @@
 
 	<!-- Processes application requests -->
 	<servlet>
-		<servlet-name>bgn</servlet-name>
+		<servlet-name>appServlet</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
@@ -43,8 +43,8 @@
 	</servlet>
 
 	<servlet-mapping>
-		<servlet-name>bgn</servlet-name>
-		<url-pattern>*.bgn</url-pattern>
+		<servlet-name>appServlet</servlet-name>
+		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 
 </web-app>
