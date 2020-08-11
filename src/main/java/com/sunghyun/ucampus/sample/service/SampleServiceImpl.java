@@ -9,7 +9,7 @@ import com.sunghyun.ucampus.sample.dao.SampleDao;
 public class SampleServiceImpl implements SampleService {
 	@Autowired
 	protected SampleDao sampleDao;
-
+	
 	@Override
 	public String selectSampleData() throws Exception {
 		String serviceTest = sampleDao.selectSampleData();

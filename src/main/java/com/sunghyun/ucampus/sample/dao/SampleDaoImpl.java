@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 public class SampleDaoImpl implements SampleDao {
 	@Autowired
 	protected SqlSessionTemplate sqlSession;
-
+	
 	@Override
 	public String selectSampleData() throws Exception {
 		return sqlSession.selectOne("sql.selectDisposableTable");
