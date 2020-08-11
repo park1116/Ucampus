@@ -1,4 +1,4 @@
-package com.sunghyun.ucampus.sample.dao;
+package com.sunghyun.ucampus.common.dao;
 
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;

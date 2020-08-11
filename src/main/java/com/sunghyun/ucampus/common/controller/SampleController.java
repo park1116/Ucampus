@@ -1,4 +1,4 @@
-package com.sunghyun.ucampus.sample.controller;
+package com.sunghyun.ucampus.common.controller;
 
 import javax.annotation.Resource;
 
@@ -6,7 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.sunghyun.ucampus.sample.service.SampleService;
+import com.sunghyun.ucampus.common.service.SampleService;
 
 @Controller
 public class SampleController {
