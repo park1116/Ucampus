@@ -9,5 +9,6 @@
 <body>
 	<h1>Begin Project!</h1>
 	<P>"처음 만든 버튼"을 누르셨습니다!</P>
+	<P>DB Result : ${dbResult}</P>
 </body>
 </html>
